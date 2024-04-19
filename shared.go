@@ -117,3 +117,9 @@ type Order struct {
 	Price  float64
 	Amount float64
 }
+
+type Level struct {
+	Side   string
+	Price  float64
+	Amount float64
+}
