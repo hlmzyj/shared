@@ -112,13 +112,14 @@ type Feature struct {
 	Jumpback_rate                   []float64
 }
 
-type Order struct {
-	Side   string
-	Price  float64
-	Amount float64
+type Prediction struct {
+	Data_status           int //0-没准备好 1-正常 2-异常
+	Feature               Feature
+	Price_change_pred     float64
+	Price_change_abs_pred float64
 }
 
-type Level struct {
+type Order struct {
 	Side   string
 	Price  float64
 	Amount float64
