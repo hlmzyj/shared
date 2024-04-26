@@ -66,6 +66,8 @@ type Feature struct {
 	Mid_price_change_abs_std  []float64
 	Mid_price_tv              []float64
 	Last_label_5s             float64
+	Last_price_change         []float64
+	Last_price_change_abs     []float64
 
 	//tr
 	Tr_avg_price                    []float64
